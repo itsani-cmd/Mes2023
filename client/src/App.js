@@ -11,7 +11,7 @@ import Register from './pages/Register/Register';
 import Footer from './components/Footer/Footer';
 import Guidelines from "./pages/Guidlelines/Guidelines";
 import Standup from './pages/Standup/Standup';
-
+import Team from './pages/Team/Team'
 function App() {
   axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
   return (
@@ -38,11 +38,11 @@ function App() {
             path="/guidelines"
             element={ <Guidelines /> }
           />
-          <Route
+          {/* <Route
             exact
-            path="/standup"
-            element={ <Standup /> }
-          />
+            path="/team"
+            element={ <Team /> }
+          /> */}
         </Routes>
       </Router>
       <Toaster />

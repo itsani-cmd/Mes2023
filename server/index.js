@@ -29,6 +29,25 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname,path.join("../client/build/index.html"))
 });
 
+
+app.get('/register', (req, res) => {
+    res.json({
+        message: 'You found the MES Portal API!',
+        success: true,
+    });
+    res.sendFile(__dirname,path.join("../client/build/index.html"))
+});
+
+app.get('/events',(req,res)=>{
+    res.sendFile(__dirname,path.join("../client/build/index.html"))
+
+})
+
+app.get('/guidelines',(req,res)=>{
+    res.sendFile(__dirname,path.join("../client/build/index.html"))
+
+})
+
 app.use('/api', router);
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`Running on port ${PORT}`));
