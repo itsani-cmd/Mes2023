@@ -673,7 +673,7 @@ const Register = () => {
                             handleArray={handleRegEventsArray} 
                         /> */}
                         <CheckboxCard 
-                            eventName="Business Development Workshop" 
+                            eventName="Design Thinking" 
                             eventMode="Offline" 
                             changeFunc={setWorkOne} 
                             logo={workshopLogo}
@@ -681,21 +681,28 @@ const Register = () => {
                         />
 
                         <CheckboxCard 
-                            eventName="Business Development Workshop" 
+                            eventName="Entrepreneurial Modelling" 
                             eventMode="Offline" 
                             changeFunc={setWorkOne} 
                             logo={workshopLogo}
                             handleArray={handleRegEventsArray}
                         />
                         <CheckboxCard 
-                            eventName="Business Development Workshop" 
+                            eventName="Amplifying Innovation for Growth" 
                             eventMode="Offline" 
                             changeFunc={setWorkOne} 
                             logo={workshopLogo}
                             handleArray={handleRegEventsArray}
                         />
                         <CheckboxCard 
-                            eventName="Business Development Workshop" 
+                            eventName="Start Ups- building a niche" 
+                            eventMode="Offline" 
+                            changeFunc={setWorkOne} 
+                            logo={workshopLogo}
+                            handleArray={handleRegEventsArray}
+                        />
+                        <CheckboxCard 
+                            eventName="Product Management Bootcamp"
                             eventMode="Offline" 
                             changeFunc={setWorkOne} 
                             logo={workshopLogo}
@@ -708,13 +715,13 @@ const Register = () => {
                             logo={workshopLogo}
                             handleArray={handleRegEventsArray}
                         /> */}
-                        {/* <CheckboxCard 
+                        <CheckboxCard 
                             eventName="Pitch Tank" 
                             eventMode="Offline" 
                             changeFunc={setPitch} 
                             logo={pitchLogo}
                             handleArray={handleRegEventsArray}
-                        /> */}
+                        /> 
                         {/* <CheckboxCard 
                             eventName="Agree to Disagree" 
                             eventMode="Offline" 
@@ -722,13 +729,13 @@ const Register = () => {
                             logo={debateLogo} 
                             handleArray={handleRegEventsArray}
                         /> */}
-                        {/* <CheckboxCard 
+                        <CheckboxCard 
                             eventName="Money Quest" 
                             eventMode="Offline" 
                             changeFunc={setMoneyQuest} 
                             logo={moneyLogo}
                             handleArray={handleRegEventsArray}
-                        /> */}
+                        /> 
                         {/* <CheckboxCard 
                             eventName="Keynote Session" 
                             eventMode="Offline" 
