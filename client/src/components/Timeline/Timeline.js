@@ -13,17 +13,57 @@ const Timeline = () => {
                         <p>Launch ~ Director, MIT</p>
                     </div>
                     <div className="time-box">
-                        <h5>Workshop Name</h5>
-                        <p>Workshop by Industry Pro</p>
+                        <h5>Design Thinking</h5>
+                        <p>Workshop by Vikas Gupta</p>
+                        <h7>16:00 - 18:00</h7>
                     </div>
                 </div>
               </li>
               <li>
                 <div className="timeline-content">
-                    <h2 className="date">18th to 22th February 2023</h2>
+                    <h2 className="date">18th February 2023</h2>
                     <div className="time-box">
-                        <h5>Workshop/Webinars</h5>
-                        <p>Workshop and webinars to be taken by experienced industry professionals with the goal of having learned something when students come out of the auditorium</p>
+                        <h5>Entrepreneurial Modelling</h5>
+                        <p>Workshop by Sudhinder Parvatikar</p>
+                        <h7>14:00 - 16:00</h7>
+                    </div>
+                    <div className="time-box">
+                        <h5>Workshop name</h5>
+                        <p>by Arvind Sasikumar</p>
+                        <h7>16:30 - 18:00</h7>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <div className="timeline-content">
+                    <h2 className="date">19th February 2023</h2>
+                    <div className="time-box">
+                        <h5>Amplifying Innovation for Growth</h5>
+                        <p>Lokesh Venkataswamy</p>
+                        <p>Dr. Tojin T. Eapen</p>
+                        <h7>17:00 - 19:00</h7>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <div className="timeline-content">
+                    <h2 className="date">21th February 2023</h2>
+                    <div className="time-box">
+                        <h5>Start Ups- building a niche</h5>
+                        <p>Jyoti Bharadwaj</p>
+                        <h7>15:30 - 17:30</h7>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <div className="timeline-content">
+                    <h2 className="date">22th February 2023</h2>
+                    <div className="time-box">
+                        <h5>Product Management Bootcamp</h5>
+                        <p>Akshay Johri</p>
+                        <p>Riya Jain</p>
+                        <p>Shobit Saxena</p>
+                        <h7>18:00 - 21:00</h7>
                     </div>
                 </div>
               </li>
